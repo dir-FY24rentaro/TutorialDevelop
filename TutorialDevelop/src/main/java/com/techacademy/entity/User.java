@@ -33,7 +33,7 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Gender gender;
     
-    //年齢
+    /**年齢*/
     private Integer age;
     
     //メールアドレス。５０桁。null許可
